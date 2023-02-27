@@ -10,7 +10,7 @@ export const BinaryTree = () => {
 
                 numbers.forEach((num) => root.insert(num));
                 drawBinaryTree(root, document.querySelector('canvas'), {
-                    type: VisualizationType.SIMPLE,
+                    type: VisualizationType.PRETTY,
                 });
             }
         })
